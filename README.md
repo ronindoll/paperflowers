@@ -2,10 +2,10 @@
 
 This is an archive for the customization stuff that I use for my GNOME 43 set up \o/ forget swaywm forget hardcore ricing.. all I need is my anime blorbo wallpaper and some sense of theme consistency :3 kinda \*shrug*
 
-![gay neofetch]()
-![???]()
-![firefox and discord]()
-![gradience gtk theme]()
+![shell theme that doesn't match the palette but it's ok](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot1.png)
+![gay neofetch](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot2.png)
+![gradience gtk theme](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot3.png)
+![firefox and discord](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot4.png)
 
 palette: Gruvbox Light Hard
 
