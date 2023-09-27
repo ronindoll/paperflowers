@@ -10,7 +10,7 @@
 :root, body, #background {
   background-size: 36px;
   background-attachment: fixed !important; 
-  background-image: url(https://raw.githubusercontent.com/ronindoll/candyhearts/main/satou/firefox/chrome/firefoxcolor-darkpolkadots.svg);
+  background-image: url(https://raw.githubusercontent.com/ronindoll/paperflowers/main/others/firefox/firefoxcolor-darkpolkadots.svg);
 }
 
 tab-item-substance .background { 
