@@ -1,0 +1,36 @@
+@import 'cleaner_extensions_menu.css';
+/* byebye tab bar */
+#titlebar {
+display: none !important;
+}
+
+/* bye bye sidebar header */
+#sidebar-header {
+  visibility: collapse;
+}
+
+/* removes sidebar border and makes it unresizeable */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
+  display: none !important;
+}
+
+/* link colors in the url bar and stuff */
+.urlbarView-url {
+	color:#d79921 !important;
+}
+
+/* when you select stuff in the link bar popup with the keys */
+.urlbarView-row[selected] .urlbarView-row-inner {
+	color: #D5C4A1 !important;
+	background-color: #282828 !important;
+}
+.urlbarView-row[selected] .urlbarView-row-inner .urlbarView-url {
+	color: #d79921 !important;
+}
+.searchbar-engine-one-off-item[selected] {
+	color: #D5C4A1 !important;
+	background-color: #282828 !important;
+}
+#urlbar-engine-one-off-item-bookmarks[selected] {
+  fill: #d79921 !important;
+}

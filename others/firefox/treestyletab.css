@@ -1,0 +1,162 @@
+/*
+  Sorry this file is not very organized. It is also made from a bunch of other snippets, mainly from:
+    https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#for-version-2x
+
+    https://www.reddit.com/r/FirefoxCSS/comments/uldl0q/a_minimal_ui_w_autohiding_tree_style_tabs/
+
+  The sections that I do know the function of have comment labels written in ALL CAPS 
+*/
+
+:root, body, #background {
+  background-size: 36px;
+  background-attachment: fixed !important; 
+  background-image: url(https://raw.githubusercontent.com/ronindoll/candyhearts/main/satou/firefox/chrome/firefoxcolor-darkpolkadots.svg);
+}
+
+tab-item-substance .background { 
+  box-shadow:none !important;
+  border: 0;
+}
+
+/* hide closebox unless needed */
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
+
+tab-item {
+  --tab-size: 40px !important;
+    font-size: 14px !important;
+}
+tab-item  tab-item-substance {
+  height: var(--tab-size);
+}
+
+/* Include 'reveal' animation ... stagers by level */
+#tabbar .tab {
+  transition: 0.1s margin-top, 0.2s 0.1s margin-left, 0.2s 0.1s visibility;
+}
+
+/* delay transitions on open */
+#tabbar:not(:hover) .tab {
+  transition-delay: 0s;
+  margin-left: 0;
+}
+
+/* animate twisty reveal */
+#tabbar .tab .twisty {
+  transition: 0.2s margin;
+}
+
+/* Push tab labels slightly to the right so they're completely hidden in collapsed state, but still look fine while expanded. */
+.tab .label {
+  margin-left: 1em;
+}
+
+/* fix closebox */
+.tab .closebox {
+  margin-left:  0;
+}
+
+
+/* Hide .twisty and adjust margins so favicons have 7px on left. */
+#tabbar:not(:hover) .tab .twisty {
+  visibility: hidden;
+  margin-left: -16px;
+  transition-delay: 0s;
+}
+
+
+/* Hide sound playing/muted button. */
+.sound-button {
+  margin-left: 0;
+  display: inline-block;
+  visibility: collapse;
+}
+
+.tab.audible .sound-button {
+  visibility: visible;
+  margin-left: 0.25em;
+}
+
+tab-item:not(.pinned) tab-favicon {
+  margin-left: 3px; 
+}
+
+tab-item:not(.subtree-collapsed) .counter {
+  visibility: hidden;
+} 
+
+/* Adjust style for tab that has sound playing. */
+.tab.sound-playing .favicon::after,
+.tab.muted .favicon::after {
+  content: '🔊';
+  z-index: var(--favicon-base-z-index);
+  position: absolute;
+  font-size: 0.5em;
+  bottom: -0.35em;
+  right: -0.7em;
+}
+
+/* Adjust style for tab that is muted. */
+.tab.muted .favicon::after {
+  content: '🔇';
+}
+
+/* PUT NEW TAB BUTTON AT TOP */
+:root {
+  --newtab-button-size: 30px;
+}
+.newtab-button-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--newtab-button-size);
+}
+#tabbar {
+  top: calc(var(--newtab-button-size) + 1px) !important;
+  bottom: 0 !important;
+}
+/* spacing on top of pinned */
+tab-item.pinned {
+  margin-top: calc(var(--newtab-button-size) + 1px) !important;
+	--pinned-position-top: ;
+}
+
+/* new tab button centering*/
+:root.left .after-tabs [role="button"]:not([data-menu-ui]) {
+  padding-right: 0;
+}
+
+
+/* USE SPACES TO SEPARATE TREES */
+/* show separator space between root level tabs */
+tab-item[data-level="0"] {
+  margin-top: calc(var(--tab-size) / 2.5); /* please change this as you like */}
+
+/* cancel needless separators on exceptions */
+tab-item[data-level="0"].pinned,
+tab-item[data-level="0"].pinned + tab-item[data-level="0"],
+tab-item[data-level="0"] + tab-item[data-level="0"]:not([data-child-ids]) {
+  margin-top: 0;
+}
+
+/* fix vertical alignment of tab text */
+tab-item tab-label {
+  padding: 0  !important;
+}
+
+/* Hide border on tab bar, force its state to 'scroll', adjust margin-left for width of scrollbar. */
+#tabbar {
+  border: 0;
+  scrollbar-width: none;
+  overflow: scroll !important;
+  margin-top:  0 !important;
+}
+
+
+
+
+tab-item:not(.pinned) tab-favicon {
+  margin-left: 3px; 
+}
