@@ -1,0 +1,40 @@
+/**
+ * @name gruvboxcustomlight
+ * @description Allows you to customize Discord's native Color Scheme.
+ * @author DevilBro
+ * @version 1.0.0
+ * @authorId 278543574059057154
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+ * @BDEditor DiscordRecolor
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+
+:root {
+  --accentcolor: 215,153,33;
+  --accentcolor2: 177,98,134;
+  --linkcolor: 69,133,136;
+  --mentioncolor: 215,153,33;
+  --textbrightest: 40,40,40;
+  --textbrighter: 60,56,54;
+  --textbright: 80,73,69;
+  --textdark: 102,92,84;
+  --textdarker: 40,40,40;
+  --textdarkest: 168,153,132;
+  --font: Serif;
+  --backgroundaccent: 249,245,215;
+  --backgroundprimary: 255,254,243;
+  --backgroundsecondary: 255,253,236;
+  --backgroundsecondaryalt: 249,245,215;
+  --backgroundtertiary: 249,245,215;
+  --backgroundfloating: 255,254,243;
+  --settingsicons: 1;
+}
+
+/* Any custom CSS below here */
+
+
