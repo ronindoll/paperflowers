@@ -1,20 +1,18 @@
 # paperflowers
 
-This is an archive for the customization stuff that I use for my GNOME 43 set up \o/ forget swaywm forget hardcore ricing.. all I need is my anime blorbo wallpaper and some sense of theme consistency :3 kinda \*shrug*
+This is an archive for the customization stuff that I use for my GNOME 43 setup \o/ 
 
-![shell theme that doesn't match the palette but it's ok](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot1.png)
-![gay neofetch](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot2.png)
-![gradience gtk theme](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot3.png)
-![firefox and discord](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot4.png)
+![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot-1.png)
+[more screenshots here](https://github.com/ronindoll/paperflowers/blob/main/assets/README.md)
 
 palette: Gruvbox Light Hard
 
 ## uses
 * Desktop environment: GNOME 43
-* Shell theme: [Marble shell](https://github.com/imarkoff/Marble-shell-theme) - filled yellow
+* Shell theme: custom [Marble shell](https://github.com/imarkoff/Marble-shell-theme) - filled yellow + dark dark gray primary color
 * GTK theming: [Gradience](https://flathub.org/apps/com.github.GradienceTeam.Gradience)
 * Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - paleorange folders
-* Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) - Catppuccin yellow (it's not Gruvbox becuz ermm I liek yellow)
+* Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) - Catppuccin yellow (it's not Gruvbox becuz ermm I liek pastel yellow)
 
 * Wallpaper & profile icon: art by meremero [1](https://danbooru.donmai.us/posts/6361963?q=satou_kai), [2](https://danbooru.donmai.us/posts/6361969?q=satou_kai) (character: Kai Satou from YTTD)
 * Browser: Firefox-based
@@ -27,6 +25,11 @@ palette: Gruvbox Light Hard
     * [Enhancer for Youtube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
     * [webP as PNG](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-or-jpeg/)
 * Discord CSS client: [Vencord](https://github.com/Vendicated/Vencord) (but any other CSS client would work too I think)
+    * <details>
+       <summary>online themes (just paste these in)</summary>
+       https://raw.githubusercontent.com/maenDisease/BetterDiscordStuff/main/Themes/Float/zFloat.theme.css
+       https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
+      </details>
 
 * Terminal: kitty (mrrrpp)
 * Shell: bash
@@ -44,6 +47,7 @@ palette: Gruvbox Light Hard
 * [Pano](https://extensions.gnome.org/extension/5278/pano/)
 * [Cronomix](https://extensions.gnome.org/extension/6003/cronomix/)
 * [Top Bar Organizer](https://extensions.gnome.org/extension/4356/top-bar-organizer/)
+* [Unite](https://extensions.gnome.org/extension/1287/unite/)
 
 ### default extensions
 * User Themes
