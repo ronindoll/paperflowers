@@ -1,6 +1,7 @@
 # paperflowers
 
 This is an archive for the customization stuff that I use for my GNOME 43 setup \o/ 
+
 The featured character is Kai Satou from Your Turn to Die ~ my anime wifeman
 
 ![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot-1.png)
@@ -14,6 +15,7 @@ palette: Gruvbox Light Hard
 * GTK theming: [Gradience](https://flathub.org/apps/com.github.GradienceTeam.Gradience) using [adw-gtk3](https://github.com/lassekongo83/adw-gtk3)
 * Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - paleorange folders
 * Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) - Catppuccin yellow (it's not Gruvbox becuz ermm I liek pastel yellow)
+* System font: Serif Regular
 
 * Wallpaper & profile icon: art by meremero [1](https://danbooru.donmai.us/posts/6361963?q=satou_kai), [2](https://danbooru.donmai.us/posts/6361969?q=satou_kai) 
 * Browser: Firefox-based
@@ -32,7 +34,8 @@ palette: Gruvbox Light Hard
        https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
       </details>
 
-* Terminal: kitty (mrrrpp)
+* Terminal: GNOME Terminal (previously kitty)
+    * font: [Maple Mono](https://github.com/subframe7536/Maple-font)
 * Shell: bash
 
 ## extensions
@@ -45,26 +48,27 @@ palette: Gruvbox Light Hard
 * [Panel corners](https://extensions.gnome.org/extension/4805/panel-corners/)
 * [Rounded Window Corners](https://extensions.gnome.org/extension/5237/rounded-window-corners/)
 * [Top Bar Organizer](https://extensions.gnome.org/extension/4356/top-bar-organizer/)
+* [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 
 ### practical
+* [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 * [Cronomix](https://extensions.gnome.org/extension/6003/cronomix/)
 * [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
-* [Workspace indicator](https://extensions.gnome.org/extension/3952/workspace-indicator/)
+* [Launch New Instance](https://extensions.gnome.org/extension/600/launch-new-instance/)
 * [Pano](https://extensions.gnome.org/extension/5278/pano/)
 * [Quick Close in Overview](https://extensions.gnome.org/extension/352/middle-click-to-close-in-overview/)
+* [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)
 * [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 * [Unite](https://extensions.gnome.org/extension/1287/unite/)
-
-### default extensions
-* User Themes
-* Removable Drive Menu
-* Launch New Instance
+* [Workspace indicator](https://extensions.gnome.org/extension/3952/workspace-indicator/)
 
 ## keybinds
-* Super+{q,e} - move prev/next workspace
-* Super+Shift+{q,e} - move window to prev/next workspace
-* Super+f - toggle maximization state
-* Super+Shift+f = toggle fullscreen
-* Super+Shift+x - close window
-* Super+Shift+r - resize window
-* Super+{d,g} - split window to left/right
+| Combination                                                        | Action                             |
+|:------------------------------------------------------------------:|:----------------------------------:|
+| <kbd>Super</kbd> + {<kbd>q</kbd>, <kbd>e</kbd>}                    | move prev/next workspace           |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + {<kbd>q</kbd>, <kbd>e</kbd>} | move window to prev/next workspace |
+| <kbd>Super</kbd> + <kbd>f</kbd>                                    | toggle maximization state          |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>f</kbd>                 | toggle fullscreen                  |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>x</kbd>                 | close window                       |
+| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>r</kbd>                 | resize window                      |
+| <kbd>Super</kbd> + {<kbd>d</kbd>, <kbd>g</kbd>}                    | split window to left/right         |

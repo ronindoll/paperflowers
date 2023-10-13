@@ -1,5 +1,5 @@
 {
-    "name": "gruvbox-lighthard-custom",
+    "name": "gradience-gruvlighthard",
     "variables": {
         "accent_color": "#b57614",
         "accent_bg_color": "#d79921",
@@ -16,24 +16,24 @@
         "error_color": "#9d0006",
         "error_bg_color": "#cc241d",
         "error_fg_color": "#f9f5d7",
-        "window_bg_color": "#f9f8ed",
+        "window_bg_color": "#f9f5d7",
         "window_fg_color": "rgba(40, 40, 40, 0.8)",
-        "view_bg_color": "#f9f8ed",
+        "view_bg_color": "#f9f5d7",
         "view_fg_color": "rgba(40,40,40,0.8)",
         "headerbar_bg_color": "#282828",
         "headerbar_fg_color": "#f9f5d7",
         "headerbar_border_color": "rgba(40,40,40,0.80)",
         "headerbar_backdrop_color": "#282828",
         "headerbar_shade_color": "rgba(40, 40, 40, 0.07)",
-        "card_bg_color": "#f9f8ed",
+        "card_bg_color": "#f9f5d7",
         "card_fg_color": "rgba(40, 40, 40, 0.8)",
         "card_shade_color": "rgba(40, 40, 40, 0.07)",
-        "dialog_bg_color": "#fcfbf4",
+        "dialog_bg_color": "#f9f5d7",
         "dialog_fg_color": "rgba(40, 40, 40, 0.8)",
-        "popover_bg_color": "#f9f8ed",
+        "popover_bg_color": "#f9f5d7",
         "popover_fg_color": "rgba(40, 40, 40, 0.8)",
         "shade_color": "rgba(40, 40, 40, 0.07)",
-        "scrollbar_outline_color": "#fcfbf4"
+        "scrollbar_outline_color": "#f9f8ed"
     },
     "palette": {
         "blue_": {
@@ -101,7 +101,7 @@
         }
     },
     "custom_css": {
-        "gtk4": "",
+        "gtk4": "/* UNITE windowDecorations */\n@import url('/home/myrrh/.local/share/gnome-shell/extensions/unite@hardpixel.eu/styles/gtk4/buttons-right/maximized.css');\n/* windowDecorations UNITE */\n",
         "gtk3": ""
     },
     "plugins": {}
