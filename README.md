@@ -34,9 +34,9 @@ Palette: Gruvbox Light Hard
        https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
       </details>
 
-* Terminal: GNOME Terminal (previously kitty)
+* Terminal: GNOME Terminal
     * font: [Maple Mono](https://github.com/subframe7536/Maple-font)
-* Shell: bash
+* Shell: fish
 
 ## extensions
 
