@@ -1,0 +1,9 @@
+/* to be manually pasted at the end of ~/.config/gtk-3.0/gtk.css */
+
+ VteTerminal,
+ TerminalScreen,
+ vte-terminal {
+     padding: 48px;
+     -VteTerminal-inner-border: 48px;
+ }
+
