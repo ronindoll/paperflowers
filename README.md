@@ -4,8 +4,8 @@ This is an archive for the customization stuff that I use for my GNOME 43 setup 
 
 The featured character is **Kai Satou from Your Turn to Die** ~ my anime wifeman
 
-![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/assets/screenshot-1.png)
-[more screenshots here](https://github.com/ronindoll/paperflowers/blob/main/assets/README.md)
+![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/screenshot-1.png)
+[more screenshots here](https://github.com/ronindoll/paperflowers/blob/main/.github/assets/README.md)
 
 Palette: Gruvbox Light Hard
 
