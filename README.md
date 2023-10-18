@@ -70,5 +70,4 @@ Palette: Gruvbox Light Hard
 | <kbd>Super</kbd> + <kbd>f</kbd>                                    | toggle maximization state          |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>f</kbd>                 | toggle fullscreen                  |
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>x</kbd>                 | close window                       |
-| <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>r</kbd>                 | resize window                      |
 | <kbd>Super</kbd> + {<kbd>d</kbd>, <kbd>g</kbd>}                    | split window to left/right         |
