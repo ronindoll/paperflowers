@@ -24,3 +24,6 @@ alias rose='neofetch'
 # quality of life
 abbr -a -- mkdir 'mkdir -p'
 abbr -a -- tr trash-put
+abbr -a -- rmr 'rm -r'
+abbr -a -- cpr 'cp -r'
+abbr -a -- lns 'ln -s'

@@ -1,0 +1,3 @@
+[submodule ".local/share/themes/adw-gtk3"]
+	path = .local/share/themes/adw-gtk3
+	url = https://github.com/lassekongo83/adw-gtk3.git
