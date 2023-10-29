@@ -145,7 +145,7 @@
 	--background-mentioned-accent: rgb(var(--mentioncolor, --warningcolor));
 	
 	/* --background-message-hover: rgba(var(--backgroundfloating),.15); */
-	--background-message-hover: rgba(var(--backgroundaccent),0.7);
+	--background-message-hover: rgba(var(--backgroundaccent),0.4);
 	--background-message-automod: rgba(var(--dangercolor),.05);
 	--background-message-automod-hover: rgba(var(--dangercolor),.1);
 	
