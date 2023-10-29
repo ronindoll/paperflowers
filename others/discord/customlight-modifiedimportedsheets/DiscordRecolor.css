@@ -4430,6 +4430,10 @@ html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c91
 	color: rgba(var(--textbrightest), 0.9);
 }
 
+.newMessagesBar__8b6d7 .barButtonBase__8fa46 {
+	color: var(--backgroundprimary) !important;
+}
+
 /* current channel name header thing, 
    header on the channel list pls work,
    new messages bar thing */
