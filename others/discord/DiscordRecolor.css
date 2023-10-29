@@ -144,7 +144,8 @@
 	--background-mentioned-hover: rgba(var(--mentioncolor, --warningcolor),.08);
 	--background-mentioned-accent: rgb(var(--mentioncolor, --warningcolor));
 	
-	--background-message-hover: rgba(var(--backgroundfloating),.15);
+	/* --background-message-hover: rgba(var(--backgroundfloating),.15); */
+	--background-message-hover: rgba(var(--backgroundaccent),.15);
 	--background-message-automod: rgba(var(--dangercolor),.05);
 	--background-message-automod-hover: rgba(var(--dangercolor),.1);
 	
@@ -508,7 +509,7 @@ html .iconBadge__2abac {
 #app-mount .lookFilled__19298.colorPrimary__6ed40,
 #app-mount .lookFilled__19298.colorPrimary__6ed40:disabled {
 	background-color: var(--background-accent);
-	color: #FFF;
+	color: rgb(var(--textbrightest));;
 }
 
 #app-mount .lookInverted_ee4261.colorPrimary__6ed40:hover,
@@ -650,15 +651,15 @@ html .iconBadge__2abac {
 
 #app-mount .item_b7fb7e[aria-checked=true] .radioBar__40e1b {
 	background: rgb(var(--accentcolor));
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 #app-mount .item_b7fb7e[aria-checked=true] .radioBar__40e1b .radioIconForeground__99b9b {
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 #app-mount .item_b7fb7e .radioBar__40e1b[style*="--radio-bar-accent-color"] {
 	background: var(--radio-bar-accent-color);
 	border: unset;
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 #app-mount .item_b7fb7e[aria-checked=false]:hover .radioBar__40e1b[style*="--radio-bar-accent-color"] {
 	background: var(--radio-bar-accent-color) linear-gradient(to right, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2));
@@ -1257,7 +1258,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 
 #app-mount .videoControls__96149 {
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 
 #app-mount .spoilerContent__37bfa {
@@ -1478,7 +1479,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 .pictureInPictureVideo_f1081d .controlIcon__25700.active_ff29dc,
 .pictureInPictureVideo_f1081d .controlIcon__25700:active {
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 .colorable_c84c4c.primaryDark__6b700 {
 	background-color: var(--background-secondary);
@@ -3116,7 +3117,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 
 #app-mount .tierMarkerAccomplished-1SkbEJ .currentTierIcon-2rq-bv {
-	color: #fff;
+	color: rgb(var(--textbrightest));;
 }
 
 /* ----		11.12.	REACTIONSMODAL					---- */
