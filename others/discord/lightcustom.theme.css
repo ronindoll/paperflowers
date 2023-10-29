@@ -13,7 +13,7 @@
 */
 
 /* @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css'); */
-@import url('DiscordRecolor.css');
+@import url('https://raw.githubusercontent.com/ronindoll/paperflowers/main/others/discord/DiscordRecolor.css');
 
 :root {
   --accentcolor: 215,153,33;

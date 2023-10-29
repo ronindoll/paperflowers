@@ -1,6 +1,6 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);*/
-@import url('BlurpleRecolor.css');
+@import url('https://raw.githubusercontent.com/ronindoll/paperflowers/main/others/discord/BlurpleRecolor.css');
 
 :root {
 	--font:							"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
