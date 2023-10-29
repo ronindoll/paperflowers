@@ -16,6 +16,8 @@ abbr -a -- ni please-install
 abbr -a -- nr please-remove
 abbr -a -- nu please-update
 abbr -a -- nunu please-upgrade
+abbr -a -- nh 'nala history'
+abbr -a -- nhu 'sudo nala history undo'
 
 # gay neofetch
 alias rosefetch='neofetch'
@@ -23,7 +25,22 @@ alias rose='neofetch'
 
 # quality of life
 abbr -a -- mkdir 'mkdir -p'
-abbr -a -- tr trash-put
 abbr -a -- rmr 'rm -r'
+abbr -a -- rmrf 'rm -rf'
 abbr -a -- cpr 'cp -r'
 abbr -a -- lns 'ln -s'
+
+#trash-cli
+abbr -a -- tr trash-put
+
+# git
+abbr -a -- gt 'git status'
+abbr -a -- gtal 'git add .'
+abbr -a -- gtai 'git add -i'
+abbr -a -- gtc 'git commit -m'
+abbr -a -- gpu 'git push origin main'
+abbr -a -- gcl 'git clone'
+
+#rsync
+abbr -a -- rs 'rsync -av'
+abbr -a -- rs-d 'rsync -av --delete'

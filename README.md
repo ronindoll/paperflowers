@@ -72,38 +72,3 @@ Palette: Gruvbox Light Hard
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>x</kbd>                 | close window                       |
 | <kbd>Super</kbd> + {<kbd>d</kbd>, <kbd>g</kbd>}                    | split window to left/right         |
 
-## aliases and abbreviations
-
-* `sudo` to `please` because it's good to be polite to your computer
-
-  ```
-  alias please='sudo'
-  # nala
-  alias please-install='sudo nala install'
-  alias please-remove='sudo nala remove'
-  alias please-update='sudo nala update'
-  alias please-upgrade='sudo nala upgrade'   
-
-  abbr -a -- pls please
-  # nala
-  abbr -a -- ni please-install
-  abbr -a -- nr please-remove
-  abbr -a -- nu please-update
-  abbr -a -- nunu please-upgrade
-  abbr -a -- ns 'nala search'
-  ```
-  sorry this is nuts
-
-* miscellaneous bullshit!
-
-  ```
-  # gay neofetch
-  alias rosefetch='neofetch'
-  alias rose='neofetch'
-
-  # quality of life
-  abbr -a -- mkdir 'mkdir -p'
-  abbr -a -- tr trash-put
-  ```
-
-
