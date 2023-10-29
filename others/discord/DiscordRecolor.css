@@ -1104,7 +1104,12 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 /* ----		4.1.	CHANNELHEADER					---- */
 
 #app-mount .container__11d72.themed_b152d4 {
-	box-shadow: var(--elevation-low);
+	/* box-shadow: var(--elevation-low); */
+	box-shadow: none;
+}
+/* header on the channel list pls work */
+.header__104ca {
+	box-shadow: none !important;
 }
 
 #app-mount .children__32014::after {
