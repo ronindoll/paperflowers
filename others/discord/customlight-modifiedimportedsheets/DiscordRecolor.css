@@ -4431,7 +4431,7 @@ html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c91
 }
 
 .newMessagesBar__8b6d7 .barButtonBase__8fa46 {
-	color: var(--backgroundprimary) !important;
+	color: rgb(var(--backgroundprimary)) !important;
 }
 
 /* current channel name header thing, 
