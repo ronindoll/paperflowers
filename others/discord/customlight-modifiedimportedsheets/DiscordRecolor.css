@@ -1105,12 +1105,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 /* ----		4.1.	CHANNELHEADER					---- */
 
 #app-mount .container__11d72.themed_b152d4 {
-	/* box-shadow: var(--elevation-low); */
-	box-shadow: none;
-}
-/* header on the channel list pls work */
-.header__104ca {
-	box-shadow: none !important;
+	box-shadow: var(--elevation-low);
 }
 
 #app-mount .children__32014::after {
@@ -4425,4 +4420,28 @@ html:only-child > head + body div.app_b1f720 > div.app_de4237 > div.layers__1c91
 	right: unset !important;
 	transform: unset !important;
 	animation: unset !important;
+}
+
+
+/* myrrh addtions */
+
+/* "jump to present" etc message */
+.barButtonBase__8fa46 {
+	color: rgba(var(--textbrightest), 0.9);
+}
+
+/* current channel name header thing, 
+   header on the channel list pls work,
+   new messages bar thing */
+#app-mount .container__11d72.themed_b152d4, 
+.header__104ca,
+.newMessagesBar__8b6d7 {
+	box-shadow: none !important;
+}
+
+/* new messages bar thing,
+   jump to present bar */
+.barBase__4e0ba,
+.jumpToPresentBar__0ff7f {
+	opacity: 1;
 }
