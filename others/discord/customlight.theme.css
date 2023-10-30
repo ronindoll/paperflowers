@@ -24,7 +24,7 @@
   --textbrighter: 60,56,54;
   --textbright: 60,56,54;
   --textdark: 102,92,84;
-  --textdarker: 40,40,40;
+  --textdarker: 80, 69, 73;
   --textdarkest: 168,153,132;
   --font: Serif;
   --backgroundaccent: 235,233,219;
@@ -34,6 +34,10 @@
   --backgroundtertiary: 235,233,219;
   --backgroundfloating: 249,248,237;
   --settingsicons: 1;
+
+  --successcolor: 152, 151, 26;
+  --warningcolor: 215, 153, 33;
+  --dangercolor: 204, 36, 29;
 }
 
 /* Any custom CSS below here */

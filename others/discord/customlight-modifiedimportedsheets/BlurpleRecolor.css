@@ -41,7 +41,7 @@
 	--button-outline-brand-border-active: rgb(var(--accentcolor)) !important;
 	
 	--mention-background: rgba(var(--accentcolor),.3) !important;
-    --mention-foreground: hsl(40, 85%, 40%) !important;
+    --mention-foreground: hsl(40, 85%, 37%) !important;
 	
 	--brand-experiment-100: #fdfdfd !important;
 	--brand-experiment-130: #f2f2f2 !important;
