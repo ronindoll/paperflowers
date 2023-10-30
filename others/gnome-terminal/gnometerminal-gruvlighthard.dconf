@@ -1,0 +1,22 @@
+[/]
+background-color='rgb(249,245,215)'
+cell-height-scale=1.05
+cell-width-scale=1.0
+cursor-background-color='rgb(102,92,84)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(189,174,147)'
+cursor-shape='ibeam'
+custom-command='fish'
+default-size-columns=78
+default-size-rows=20
+font='Maple Mono NF 12'
+foreground-color='rgb(60,56,54)'
+highlight-background-color='rgb(214,93,14)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(60,56,54)'
+palette=['rgb(235,219,178)', 'rgb(204,36,29)', 'rgb(152,151,26)', 'rgb(215,153,33)', 'rgb(69,133,136)', 'rgb(177,98,134)', 'rgb(104,157,106)', 'rgb(124,111,100)', 'rgb(146,131,116)', 'rgb(157,0,6)', 'rgb(121,116,14)', 'rgb(181,118,20)', 'rgb(7,102,120)', 'rgb(143,63,113)', 'rgb(66,123,88)', 'rgb(40,40,40)']
+scrollbar-policy='never'
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+visible-name='gruvbox light'

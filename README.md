@@ -16,9 +16,9 @@ Palette: Gruvbox Light Hard
 * Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - paleorange folders
 * Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) - Catppuccin yellow (it's not Gruvbox becuz ermm I liek pastel yellow)
 * System font: Serif Regular
-
 * Wallpaper & profile icon: art by meremero [1](https://danbooru.donmai.us/posts/6361963?q=satou_kai), [2](https://danbooru.donmai.us/posts/6361969?q=satou_kai) 
-* Browser: Firefox-based
+
+* Browser: Firefox-based (extensions listed)
     * [Firefox Color theme link](https://color.firefox.com/?theme=XQAAAALWAQAAAAAAAABBKYhm849SCia-yK6EGccwS-xMDPr5iE6wEt17lnFu4uAqMsdEr67Q9FqEtatB-fldhpb0NGHYqT8ZyLVyRT2uQMb7qpQnyCgnm8fUT7VK7DgoVDoP0TRKakS_g98hBgElYynlpklEvoRJHJfYW_ARrnHEEEkAqWchBQbGU3t1Cvzt4LzbmRN7CWaQrmtuy8C2uATpZljfSsnP_4F2QvIshwk-z6_5sKAi_8NonMw7SMwicrjA2nQaGuCPjM9TuEMP41gaO_dil-aNSUjKNWQbcJKCbuEnZ9zpzgPSjxr-EvjTZoa3Mdx-KC8smdOFXz6HCZb_6lfTCQ)
     * [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
     * stupid [custom new tab](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) that I don't even use [💀](https://ronindoll.github.io/)
@@ -28,15 +28,18 @@ Palette: Gruvbox Light Hard
     * [Enhancer for Youtube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
     * [webP as PNG](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-or-jpeg/)
 * Discord CSS client: [Vencord](https://github.com/Vendicated/Vencord) (but any other CSS client would work too I think)
-    * <details>
-       <summary>online themes (just paste these in)</summary>
-       https://raw.githubusercontent.com/maenDisease/BetterDiscordStuff/main/Themes/Float/zFloat.theme.css
-       https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
-      </details>
 
 * Terminal: GNOME Terminal
-    * font: [Maple Mono](https://github.com/subframe7536/Maple-font)
-* Shell: fish
+    * Font: [Maple Mono](https://github.com/subframe7536/Maple-font)
+    * Shell: fish
+
+* Editor: [VSCodium](https://vscodium.com/) (extensions listed)
+    * Live Server
+    * Auto Rename Tag
+    * File Utils
+    * Code Spell Checker
+    * Gruvbox Theme
+    * Rosé Pine
 
 ## extensions
 
