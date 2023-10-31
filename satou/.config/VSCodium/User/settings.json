@@ -11,6 +11,5 @@
     "editor.minimap.maxColumn": 60,
     "editor.minimap.renderCharacters": false,
     "editor.glyphMargin": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.activityBar.visible": false
+    "liveServer.settings.donotShowInfoMsg": true
 }

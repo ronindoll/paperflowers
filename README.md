@@ -4,9 +4,10 @@ This is an archive for the customization stuff that I use for my GNOME 43 setup 
 
 I have separate profiles for my personal and work stuff because I'm crazy and insane
 
-## 🍳 satou
+🍳 satou
+---
 
-*~ personal*
+*personal ~*
 
 ![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/satou/screenshot-1.png)
 
@@ -15,18 +16,23 @@ The featured character is *Kai Satou* from *Your Turn to Die* ~ my anime wifeman
 * Art for [wallpaper](https://danbooru.donmai.us/posts/6361963?q=satou_kai) and [profile icon](https://danbooru.donmai.us/posts/6361969?q=satou_kai) are both by meremero
 * The palette is [Gruvbox Light Hard](https://github.com/morhetz/gruvbox)
 
-## 🕊️ wilt
+🕊️ wilt
+---
+*non-personal ~*
 
-*~ non-personal*
-
-![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/wilt/screenshot-1.png)
+![fetch](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/wilt/screenshot-3.png)
 
 * The wallpaper is [Van Gogh's *Still Life: Vase with Pink Roses*](https://en.wikipedia.org/wiki/Still_Life:_Vase_with_Pink_Roses), profile icon is [Claude Monet's *Woman with a Parasol – Madame Monet and Her Son*](https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son)
 * The palette is [Rosé Pine Dawn](https://rosepinetheme.com/)
 
+---
+**~ [view all screenshots here](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/README.md) ~**
+
+---
+
 ## general uses 
 
-*~ for both setups*
+*for both setups ~*
 
 * Desktop Environment: GNOME 43.6
 * Shell theme: custom [Marble shell](https://github.com/imarkoff/Marble-shell-theme) forks
@@ -99,10 +105,6 @@ The featured character is *Kai Satou* from *Your Turn to Die* ~ my anime wifeman
 
 
 ### [vencord](https://github.com/Vendicated/Vencord) themes
-
-<details><summary>zFloat + Horizontal Server List<summary>
-```
-https://raw.githubusercontent.com/maenDisease/BetterDiscordStuff/main/Themes/Float/zFloat.theme.css
-https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
-```
-</details>
+* [Float](https://github.com/maenDisease/BetterDiscordStuff)
+* [Horizontal Server List](https://github.com/DiscordStyles/HorizontalServerList)
+* [DiscordRecolor](https://github.com/mwittrien/BetterDiscordAddons)

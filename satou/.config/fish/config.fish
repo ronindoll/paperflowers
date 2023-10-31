@@ -35,9 +35,9 @@ abbr -a -- tr trash-put
 
 # git
 abbr -a -- gt 'git status'
-abbr -a -- gta 'git add'
-abbr -a -- gtal 'git add .'
-abbr -a -- gtai 'git add -i'
+abbr -a -- ga 'git add'
+abbr -a -- gal 'git add .'
+abbr -a -- gai 'git add -i'
 abbr -a -- gcm 'git commit -m'
 abbr -a -- gpu 'git push origin main'
 abbr -a -- gcl 'git clone'
