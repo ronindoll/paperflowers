@@ -1,47 +1,48 @@
-# 🍳 Satou
+# paperflowers
 
 This is an archive for the customization stuff that I use for my GNOME 43 setup \o/ 
 
-The featured character is **Kai Satou from Your Turn to Die** ~ my anime wifeman
+I have separate profiles for my personal and work stuff because I'm crazy and insane
 
-![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/screenshot-1.png)
-[more screenshots here](https://github.com/ronindoll/paperflowers/blob/main/.github/assets/README.md)
+## 🍳 satou
 
-Palette: Gruvbox Light Hard
+*~ personal*
 
-## uses
-* Desktop environment: GNOME 43
-* Shell theme: custom [Marble shell](https://github.com/imarkoff/Marble-shell-theme) - filled yellow + dark dark gray primary color
-* GTK theming: [Gradience](https://flathub.org/apps/com.github.GradienceTeam.Gradience) using [adw-gtk3](https://github.com/lassekongo83/adw-gtk3)
-* Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - paleorange folders
-* Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) - Catppuccin yellow (it's not Gruvbox becuz ermm I liek pastel yellow)
+![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/satou/screenshot-1.png)
+
+The featured character is *Kai Satou* from *Your Turn to Die* ~ my anime wifeman :3
+
+* Art for [wallpaper](https://danbooru.donmai.us/posts/6361963?q=satou_kai) and [profile icon](https://danbooru.donmai.us/posts/6361969?q=satou_kai) are both by meremero
+* The palette is [Gruvbox Light Hard](https://github.com/morhetz/gruvbox)
+
+## 🕊️ wilt
+
+*~ non-personal*
+
+![empty desktop](https://raw.githubusercontent.com/ronindoll/paperflowers/main/.github/assets/wilt/screenshot-1.png)
+
+* The wallpaper is [Van Gogh's *Still Life: Vase with Pink Roses*](https://en.wikipedia.org/wiki/Still_Life:_Vase_with_Pink_Roses), profile icon is [Claude Monet's *Woman with a Parasol – Madame Monet and Her Son*](https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son)
+* The palette is [Rosé Pine Dawn](https://rosepinetheme.com/)
+
+## general uses 
+
+*~ for both setups*
+
+* Desktop Environment: GNOME 43.6
+* Shell theme: custom [Marble shell](https://github.com/imarkoff/Marble-shell-theme) forks
+* GTK theme: [Gradience](https://flathub.org/apps/com.github.GradienceTeam.Gradience) + [adw-gtk3](https://github.com/lassekongo83/adw-gtk3)
+* Icon theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) 
+    * satou: paleorange
+    * wilt: darkcyan
+* Cursor theme: [Afterglow Recolored](https://github.com/TeddyBearKilla/Afterglow-Cursors-Recolored) 
+    * satou: catppuccin yellow
+    * wilt: catppuccin rosewater
 * System font: Serif Regular
-* Wallpaper & profile icon: art by meremero [1](https://danbooru.donmai.us/posts/6361963?q=satou_kai), [2](https://danbooru.donmai.us/posts/6361969?q=satou_kai) 
-
-* Browser: Firefox-based (extensions listed)
-    * [Firefox Color theme link](https://color.firefox.com/?theme=XQAAAALWAQAAAAAAAABBKYhm849SCia-yK6EGccwS-xMDPr5iE6wEt17lnFu4uAqMsdEr67Q9FqEtatB-fldhpb0NGHYqT8ZyLVyRT2uQMb7qpQnyCgnm8fUT7VK7DgoVDoP0TRKakS_g98hBgElYynlpklEvoRJHJfYW_ARrnHEEEkAqWchBQbGU3t1Cvzt4LzbmRN7CWaQrmtuy8C2uATpZljfSsnP_4F2QvIshwk-z6_5sKAi_8NonMw7SMwicrjA2nQaGuCPjM9TuEMP41gaO_dil-aNSUjKNWQbcJKCbuEnZ9zpzgPSjxr-EvjTZoa3Mdx-KC8smdOFXz6HCZb_6lfTCQ)
-    * [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
-    * stupid [custom new tab](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) that I don't even use [💀](https://ronindoll.github.io/)
-    * [Tab Stash](https://addons.mozilla.org/en-US/firefox/addon/tab-stash/)
-    * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-    * [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
-    * [Enhancer for Youtube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
-    * [webP as PNG](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-or-jpeg/)
-* Discord CSS client: [Vencord](https://github.com/Vendicated/Vencord) (but any other CSS client would work too I think)
-
 * Terminal: GNOME Terminal
+    * Shell: [fish](https://fishshell.com/)
     * Font: [Maple Mono](https://github.com/subframe7536/Maple-font)
-    * Shell: fish
 
-* Editor: [VSCodium](https://vscodium.com/) (extensions listed)
-    * Live Server
-    * Auto Rename Tag
-    * File Utils
-    * Code Spell Checker
-    * Gruvbox Theme
-    * Rosé Pine
-
-## extensions
+## gnome extensions
 
 ### cosmetic
 * [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/)
@@ -64,8 +65,9 @@ Palette: Gruvbox Light Hard
 * [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 * [Unite](https://extensions.gnome.org/extension/1287/unite/)
 * [Workspace indicator](https://extensions.gnome.org/extension/3952/workspace-indicator/)
+* [Workspaces indicator by open apps](https://extensions.gnome.org/extension/5967/workspaces-indicator-by-open-apps/)
 
-## keybinds
+## gnome keybinds
 | Combination                                                        | Action                             |
 |:------------------------------------------------------------------:|:----------------------------------:|
 | <kbd>Super</kbd> + {<kbd>q</kbd>, <kbd>e</kbd>}                    | move prev/next workspace           |
@@ -75,3 +77,32 @@ Palette: Gruvbox Light Hard
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>x</kbd>                 | close window                       |
 | <kbd>Super</kbd> + {<kbd>d</kbd>, <kbd>g</kbd>}                    | split window to left/right         |
 
+## miscellaneous 
+
+### firefox extensions
+* [Firefox Color theme link](https://color.firefox.com/?theme=XQAAAALWAQAAAAAAAABBKYhm849SCia-yK6EGccwS-xMDPr5iE6wEt17lnFu4uAqMsdEr67Q9FqEtatB-fldhpb0NGHYqT8ZyLVyRT2uQMb7qpQnyCgnm8fUT7VK7DgoVDoP0TRKakS_g98hBgElYynlpklEvoRJHJfYW_ARrnHEEEkAqWchBQbGU3t1Cvzt4LzbmRN7CWaQrmtuy8C2uATpZljfSsnP_4F2QvIshwk-z6_5sKAi_8NonMw7SMwicrjA2nQaGuCPjM9TuEMP41gaO_dil-aNSUjKNWQbcJKCbuEnZ9zpzgPSjxr-EvjTZoa3Mdx-KC8smdOFXz6HCZb_6lfTCQ)
+* [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+* [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) for custom new tab that I don't even use [💀](https://ronindoll.github.io/)
+* [Tab Stash](https://addons.mozilla.org/en-US/firefox/addon/tab-stash/)
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+* [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
+* [Enhancer for Youtube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
+* [webP as PNG](https://addons.mozilla.org/en-US/firefox/addon/save-webp-as-png-or-jpeg/)
+
+### [vscodium](https://vscodium.com/) extensions
+* Live Server
+* Auto Rename Tag
+* File Utils
+* Code Spell Checker
+* Gruvbox Theme
+* Rosé Pine
+
+
+### [vencord](https://github.com/Vendicated/Vencord) themes
+
+<details><summary>zFloat + Horizontal Server List<summary>
+```
+https://raw.githubusercontent.com/maenDisease/BetterDiscordStuff/main/Themes/Float/zFloat.theme.css
+https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css
+```
+</details>

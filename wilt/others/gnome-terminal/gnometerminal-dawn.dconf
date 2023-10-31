@@ -1,0 +1,15 @@
+[/]
+background-color='rgb(250,244,237)'
+bold-is-bright=true
+cell-height-scale=1.05
+cursor-shape='ibeam'
+custom-command='fish'
+foreground-color='rgb(87,82,121)'
+highlight-background-color='rgb(223,218,217)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(87,82,121)'
+palette=['rgb(87,82,121)', 'rgb(180,99,122)', 'rgb(86,148,159)', 'rgb(234,157,52)', 'rgb(40,105,131)', 'rgb(144,122,169)', 'rgb(215,130,126)', 'rgb(255,250,243)', 'rgb(87,82,121)', 'rgb(180,99,122)', 'rgb(86,148,159)', 'rgb(234,157,52)', 'rgb(40,105,131)', 'rgb(144,122,169)', 'rgb(215,130,126)', 'rgb(255,250,243)']
+scrollbar-policy='never'
+use-custom-command=true
+use-theme-colors=false
+visible-name='rose pine dawn'
