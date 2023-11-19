@@ -21,7 +21,6 @@ abbr -a -- nhu 'sudo nala history undo'
 
 # gay neofetch
 alias rosefetch='neofetch'
-alias rose='neofetch'
 
 # quality of life
 abbr -a -- mkdir 'mkdir -p'
@@ -32,6 +31,7 @@ abbr -a -- lns 'ln -s'
 
 #trash-cli
 abbr -a -- tr trash-put
+abbr -a -- trr trash-restore
 
 # git
 abbr -a -- gt 'git status'
@@ -45,3 +45,6 @@ abbr -a -- gcl 'git clone'
 #rsync
 abbr -a -- rs 'rsync -av'
 abbr -a -- rs-d 'rsync -av --delete'
+
+#gay
+abbr -a -- rose 'rosefetch'

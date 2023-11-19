@@ -1,15 +1,81 @@
 {
-    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootNameShort}",
+    "window.titleSeparator": " ✿ ",
+    "window.commandCenter": false,
     "workbench.sideBar.location": "right",
     "workbench.layoutControl.enabled": false,
-    "editor.fontSize": 16,
-    "window.titleBarStyle": "custom",
-    "window.commandCenter": false,
-    "workbench.colorTheme": "Gruvbox Light Hard",
-    "editor.fontFamily": "'Maple Mono NF', 'Droid Sans Mono', 'monospace', monospace",
+    
+    // hiding stuff
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.lineNumbers": "off",
     "editor.minimap.autohide": true,
     "editor.minimap.maxColumn": 60,
     "editor.minimap.renderCharacters": false,
     "editor.glyphMargin": false,
-    "liveServer.settings.donotShowInfoMsg": true
+    // "scm.diffDecorations": "none",
+    
+    // theme
+    "workbench.colorTheme": "Gruvbox Light Soft",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Maple Mono NF', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 16,
+
+    //  behavior
+    "css.format.spaceAroundSelectorSeparator": true,
+
+    // extensions
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vscord.status.problems.text": "",
+    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+    "vscord.status.state.idle.enabled": false,
+    "color-highlight.markRuler": false,
+    "color-highlight.matchRgbWithNoFunction": true,
+    
+    "workbench.colorCustomizations": {
+        "[Gruvbox Light Soft]": {
+            "sideBar.background": "#F9F8ED", 
+            "dropdown.background": "#F9F8ED", 
+            "scrollbar.shadow": "#F9F8ED", 
+            "badge.foreground": "#F9F8ED", 
+            "activityBar.background": "#F9F8ED",
+            "editorGroupHeader.tabsBackground": "#F9F8ED", 
+            "tab.inactiveBackground": "#F9F8ED",
+            "editor.background": "#F9F8ED",
+            "editorHoverWidget.background": "#F9F8ED",
+            "editorWidget.background": "#F9F8ED",
+            "editorSuggestWidget.background": "#F9F8ED",
+            "statusBar.background": "#F9F8ED",
+            "statusBar.debuggingForeground": "#F9F8ED",
+            "statusBar.noFolderBackground": "#F9F8ED",
+            "terminal.background": "#F9F8ED",
+            "titleBar.activeBackground": "#F9F8ED",
+            "titleBar.inactiveBackground": "#F9F8ED",
+
+            "tab.activeBackground": "#EBE9DB",
+
+            "list.hoverBackground": "#EBE9DB80",
+            "list.focusBackground": "#EBE9DB",
+            "list.activeSelectionBackground": "#EBE9DB80",
+
+            "editorGroupHeader.tabsBorder": "#EBE9DB",
+            "dropdown.border": "#EBE9DB",
+            "sideBar.border": "#EBE9DB",
+            "activityBar.border": "#EBE9DB",
+            "editorGroup.border": "#EBE9DB",
+            "editorHoverWidget.border": "#EBE9DB",
+            "editorWidget.border": "#EBE9DB",
+            "editor.lineHighlightBackground": "#EBE9DB",
+            "editorSuggestWidget.border": "#EBE9DB",
+            "peekView.border": "#EBE9DB",
+            "panel.border": "#EBE9DB",
+            "statusBar.border": "#EBE9DB",
+            "menu.border": "#EBE9DB",
+            "menu.separatorBackground": "#EBE9DB",
+
+            "tab.activeBorder": "#458588",
+        }
+    },
 }
