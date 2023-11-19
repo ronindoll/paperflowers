@@ -15,13 +15,10 @@
     "editor.minimap.maxColumn": 60,
     "editor.minimap.renderCharacters": false,
     "editor.glyphMargin": false,
-    // "scm.diffDecorations": "none",
-    
-    // theme
-    "workbench.colorTheme": "Gruvbox Light Soft",
+    "scm.diffDecorations": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "'Maple Mono NF', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'Maple Mono NF', 'Tinos', 'Go Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
 
     //  behavior
     "css.format.spaceAroundSelectorSeparator": true,
@@ -78,4 +75,6 @@
             "tab.activeBorder": "#458588",
         }
     },
+    "workbench.colorTheme": "Gruvbox Light Soft",
+    "window.zoomLevel": 1,
 }

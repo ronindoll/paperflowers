@@ -1015,7 +1015,9 @@
 }
 .bannerClubs__9368e .avatarName__6d8c7::before {
 	content: "Susie#0000";
-	font-size: 16px;
+	/* font-size: 16px; */
+	/* modified for comic sans */
+	font-size: 14px;
 }
 .bannerGaming__893b2 {
 	background: rgb(var(--accentcolor)) url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/blurple/rolebanner_gaming_details.svg) center/cover no-repeat;
