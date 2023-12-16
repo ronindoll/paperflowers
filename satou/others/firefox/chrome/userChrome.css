@@ -34,3 +34,7 @@ display: none !important;
 #urlbar-engine-one-off-item-bookmarks[selected] {
   fill: #d79921 !important;
 }
+
+/* #urlbar, #searchbar {
+	font-size: 0.9em !important;
+} */

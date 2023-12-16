@@ -9,27 +9,22 @@
     // hiding stuff
     "window.menuBarVisibility": "toggle",
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
     "editor.lineNumbers": "off",
     "editor.minimap.autohide": true,
     "editor.minimap.maxColumn": 60,
     "editor.minimap.renderCharacters": false,
     "editor.glyphMargin": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.visible": false,
+
     "scm.diffDecorations": "none",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "'Maple Mono NF', 'Tinos', 'Go Mono', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
 
     //  behavior
     "css.format.spaceAroundSelectorSeparator": true,
-
-    // extensions
-    "liveServer.settings.donotShowInfoMsg": true,
-    "vscord.status.problems.text": "",
-    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
-    "vscord.status.state.idle.enabled": false,
-    "color-highlight.markRuler": false,
-    "color-highlight.matchRgbWithNoFunction": true,
+    "editor.linkedEditing": true,
     
     "workbench.colorCustomizations": {
         "[Gruvbox Light Soft]": {
@@ -76,5 +71,18 @@
         }
     },
     "workbench.colorTheme": "Gruvbox Light Soft",
-    "window.zoomLevel": 1,
+
+    // extensions
+    "fiveServer.highlight": true,
+    "fiveServer.openTerminal": false,
+    "fiveServer.injectBody": true,
+    "fiveServer.browser": [
+        "firefox:PrivateMode"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vscord.status.problems.text": "",
+    "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+    "vscord.status.state.idle.enabled": false,
+    "color-highlight.markRuler": false,
+    "color-highlight.matchRgbWithNoFunction": true,
 }

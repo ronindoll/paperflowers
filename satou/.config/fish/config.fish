@@ -48,3 +48,10 @@ abbr -a -- rs-d 'rsync -av --delete'
 
 #gay
 abbr -a -- rose 'rosefetch'
+
+#neocities
+abbr -a -- neo 'neocities'
+abbr -a -- ncu 'neocities upload'
+abbr -a -- ncd 'neocities delete'
+abbr -a -- ncl 'neocities list'
+abbr -a -- ncpu 'neocities push'
